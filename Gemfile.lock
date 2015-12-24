@@ -26,14 +26,24 @@ GEM
       thor (>= 0.18.1)
     lita-karma (3.0.2)
       lita (>= 4.0)
+    lita-pun (0.0.2)
+      lita (>= 2.3)
+      nokogiri (>= 1.6)
     lita-slack (1.7.2)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
       lita (>= 4.6.0)
       multi_json
+    lita-sushiyuki (0.0.6)
+      lita (>= 3.1)
+    lita-urban-dictionary (1.1.0)
+      lita (>= 4.0)
+    mini_portile2 (2.0.0)
     multi_json (1.11.2)
     multipart-post (2.0.0)
+    nokogiri (1.6.7.1)
+      mini_portile2 (~> 2.0.0.rc2)
     puma (2.15.3)
     rack (1.6.4)
     rb-readline (0.5.3)
@@ -53,7 +63,10 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-karma
+  lita-pun
   lita-slack
+  lita-sushiyuki
+  lita-urban-dictionary
 
 BUNDLED WITH
    1.10.6

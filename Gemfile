@@ -13,3 +13,6 @@ gem "lita-slack"
 # For example:
 # gem "lita-google-images"
 gem "lita-karma"
+gem "lita-urban-dictionary"
+gem 'lita-sushiyuki'
+gem "lita-pun"

@@ -19,7 +19,7 @@ Lita.configure do |config|
   # appropriate gem to the Gemfile.
   config.robot.adapter = :slack
   config.adapters.slack.token = "xoxb-17258982546-kdbWYdWs2VHnOi7K8kFimCPt"
-  
+
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
@@ -31,4 +31,5 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+  config.handlers.urban_dictionary.max_response_size = 5
 end
